@@ -1,9 +1,10 @@
 import React from 'react'
-
+import "./Footer.scss"
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className='footer'>
+      <div>Movie App</div>
+      <div>2023, Movie, By Ramzi Bouzaiene</div>
     </div>
   )
 }

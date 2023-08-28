@@ -11,13 +11,15 @@ function App() {
     <>
     <Router>
       <div className="app">
-          <Header />
-          <Routes>
+        <Header />
+        <div className='container'>
+        <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/movie/:imdbID" element={<MovieDetail />} />
             <Route element={<PageNotFound />} path="*"/>
           </Routes>
-          <Footer />
+        </div>
+        <Footer />
       </div>
     </Router>
     </>
